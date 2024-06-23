@@ -1,9 +1,12 @@
 import "./App.css";
+import { AboutUs } from "./pages/aboutUs/AboutUs";
 
 function App() {
   return (
     <>
-      <div>hi</div>
+      <div>
+        <AboutUs />
+      </div>
     </>
   );
 }
